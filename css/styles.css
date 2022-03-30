@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    max-width: 375px; 
+    font-family: "Be Vietnam Pro";
+    /* border: #F3603B solid 2px;  */
+}
+
+
+/* Mobile Header */
+
+header section{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25em;    
+
+}
+
+.navBar {
+    display: none;
+}
+
+/* Mobile Main */
+
+h1{
+    font-size: 2.6em;
+    color: #232C50;
+    text-align: center;
+}
+
+main article {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap:0.6em;
+    align-items: center;
+    
+    /* background-image: url(/img/bg-tablet-pattern.svg); */
+}
+
+.principal p{
+    padding: 30px;
+    text-align: justify;
+    letter-spacing: -0.02em;
+    line-height: 1.9em;
+    font-size: 1em;
+    /*  ver */
+}
+
+article p{
+    text-align: center;
+    padding: 1.563em;
+    color: #B9B9C1;
+    letter-spacing: -0.02em;
+    line-height: 1.875em;
+}
+
+.manage {
+    text-align: left;
+    line-height: 2.2em;
+    font-size: 0.82em; 
+    padding: 1em 2em 3em 1em; 
+    letter-spacing: 0.02em;
+
+}
+
+.numerito{
+    position: absolute;
+    background-color:#F3603B;
+    color: #FFFFFF;
+    right: 82%;
+    border-radius: 3.125em;
+    padding: 0.3em 1.5em;
+    font-size: smaller;
+}
+
+h3{
+    margin-left: 30px;
+    padding: 0.4em 0 0.4em 3.5em;
+    color: #232C50;
+    background-color: rgb(255, 239, 234); 
+    font-size: 1rem;
+}
+
+
+#btn{
+    width: 134px;
+    height: 44px;
+    background-color:#F3603B;
+    border-radius: 50px;
+    color: white;
+    border: #F3603B;
+    cursor:pointer;
+    box-shadow: 0px 10px 13px -7px #F3603B, 1px 13px 19px 2px;
+}
+.comentarios{
+    display:flex;
+    justify-content: center;
+}
+
+#cards{
+    display: flex;
+    justify-content: center;
+    margin: 25% 5% 5% 5%;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAFAFA;
+    position: relative;
+    padding-top: 3.5rem;
+}
+.card img{
+    width: 70px;
+    position: absolute;
+    bottom: calc(100% - (70px / 2));
+}
+.card p{
+    color: #B9B9C1;
+    text-align: center;
+    margin: 1rem 1rem 1.4rem 1rem ;
+    font-size: 0.8em;
+}
+
+.puntitos{
+    display: block;
+    color: #F3603B;
+    font-size: .5rem;
+    margin-bottom: 2rem;
+    letter-spacing: .2em;
+}
+
+.puntitos a i{
+    font-size: .5rem;
+    color: #F3603B;
+}
+
+.cardOculta{
+    display: none;
+}
+
+article h2{
+    font-size: 36px;
+    color: #232C50;
+    padding: 8px;
+    text-align: center;
+}
+
+article h5{
+    color: #232C50;
+    text-align: center;
+    font-size: 0.9em;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.4em;
+    gap: 1.25em;
+    padding: 2.7em 0.7em;
+    text-align:center;
+    background-color:#F3603B;
+    color: #FFFFFF;
+}
+.blanco{
+    width: 134px;
+    height: 44px;
+    color: #F3603B;
+    background-color:#FFFFFF;
+    border-radius: 50px;
+    border: #FFFFFF;
+    cursor:pointer;
+    
+}
+
+/* .sub{
+    
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 15px;
+    border: solid red 1px;
+    width: 100%;
+    background-color:  rgba(242, 95, 58,0.15);
+} */
+
+.sub{
+    position: relative;
+    width: 100%;
+}
+
+/* Mobile Footer */
+
+footer section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    align-items:center;
+    background-color: rgb(29, 30, 37);
+    padding: 30px 20px;
+    gap: 35px;
+}
+
+.search{
+    border-radius: 3.2em;
+    width: 18em;
+    height: 3em;
+    background-color: #FFFFFF;
+    border: #FFFFFF;
+    margin: 2em 0.5em 3em 0;
+    padding: 1.5em;
+}
+
+.botonGo{
+    background-color:#F3603B;
+    width: 5em;
+    height: 2.75em;
+    border-radius: 3.2em;
+    border: #F3603B;
+    color: #FFFFFF;
+    cursor:pointer;
+
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 30px 0 30px 30px;
+    gap: 20px
+} 
+
+
+nav ul li{
+    font-size: 12px;
+    width: 120px;
+
+}
+a{
+    text-decoration: solid;
+}
+a:link{
+    color: rgb(249, 249, 249);
+}
+a:visited{
+    color: rgb(249, 249, 249);
+}
+
+.redes{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+footer p{
+    color: #b9b9c175;
+    font-size: 10px;
+    letter-spacing: -0.02em;
+
+}
+
+
+
+@media (min-width: 376px){
+
+    /* body{
+        max-width: 100%;
+        overflow-x: hidden;
+        background-image: url("../img/bg-tablet-pattern.svg"), url("../img/bg-tablet-pattern.svg");
+        background-repeat: no-repeat;
+        background-position: left 110% bottom 110%, right 150% top 65%;
+    } */
+    
+    .navBar {
+        background-color: aqua;
+    }
+
+
+
+}
