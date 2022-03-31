@@ -10,10 +10,8 @@
 </head>
 <body>
     <header>
-        <section>
             <img src="./img/logo.svg" alt="logo">
-            <img src="./img/icon-hamburger.svg" alt="hamburguesa">
-<div class="navBar">
+            <div id="hamburguesa"><img src="./img/icon-hamburger.svg" alt="hamburguesa"></div>
             <nav>
                 <ul>
                     <li><a href="">Pricing</a></li>
@@ -23,36 +21,41 @@
                     <li><a href="">Community</a></li>
                 </ul>
             </nav>
-            <button id="btn"> Get Started</button>
-            <i class="fa-solid fa-bars"></i>
-        </div>
-        </section>
+            <button class="btn"> Get Started</button>
     </header>
     <main>
         <section>
-            <article>
-                <img src="./img/illustration-intro.svg" alt="">
-                <div class="principal"><h1>
-                    Bring everyone together to build better products.
-                </h1>
+            <article class="principal">
+            <div><h1> Bring everyone together to build better products.</h1>
                 <p>
                     Manage makes it simple to software teams to plan day-to-day tasks while keeping the larger team goals in view.
-                </p></div>
-                <button id="btn">
-                    Get Started
-                </button>
+                </p>
+                <button class="btn"> Get Started </button>
+            </div>
+            <img src="./img/illustration-intro.svg" alt="">
             </article>
-            <article>
+
+            <article class="innova">
+                <div class="subContainer">
                 <h2>What´s different about Manage?</h2>
                 <p>Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams.</p>
-                <div class="subContainer">
-                <div class="sub"><p class="numerito">01</p><h3>Track company-wide progress</h3></div>
-                <p class="manage">See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.</p>
-                <div class="sub"><p class="numerito">02</p><h3>Advance built-in reports</h3></div>
-                <p class="manage">Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stackeholders informed.</p>
-                <div class="sub"><p class="numerito">03</p><h3>Everything you need in one place</h3></div>
-                <p class="manage">Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.</p>
-            </div>
+                </div>
+
+                <div class="sub">
+                
+                <div class="numerito">
+                <h3>Track company-wide progress</h3>
+                <p>See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.</p>
+                </div>
+                <div class="numerito">
+                
+                <h3>Advance built-in reports</h3>
+                <p>Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stackeholders informed.</p>
+                </div>
+                <div class="numerito">
+                <h3>Everything you need in one place</h3>
+                <p>Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.</p>
+            </div></div>
             </article>
 
             <article class="comentarios">
@@ -82,7 +85,7 @@
                     <a href="#"><i class="fa-regular fa-circle"></i></a>
                     <a href="#"><i class="fa-regular fa-circle"></i></a>
                 </div>
-                <button id="btn">Get Started</button>
+                <button class="btn">Get Started</button>
             </article>
 
             <aside>
@@ -93,39 +96,38 @@
     </main>
 
     <footer>
-        <section>
-            <div>
-                <form action="">
-                    <input class="search" type="text" name="search" placeholder="    Updates in your inbox...">
-                    <input class="botonGo" type="submit" value="GO">
-                </form>
-
+        <div class="piePagina">
+            <div class="redes">
+                <img src="./img/logoBlanco.png" alt="">
+                <div>
+                    <i class="fa-brands fa-facebook-square"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                    <i class="fa-brands fa-instagram-square"></i>
+                </div>
             </div>
-            <nav>
+            <div class="navFooter">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Pircing</a></li>
                     <li><a href="#">Products</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
                     <li><a href="#">About Us</a></li>
                 </ul>
-            </nav>
-            <div class="redes">
-                <img src="./img/icon-facebook.svg" alt="">
-                <img src="./img/icon-youtube.svg" alt="">
-                <img src="./img/icon-twitter.svg" alt="">
-                <img src="./img/icon-pinterest.svg" alt="">
-                <img src="./img/icon-instagram.svg" alt="">
+                <ul>
+                    <li><a href="#">Carrers</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
 
-            </div>
-            <div>
-                <img src="./img/logoBlanco.png" alt="">
-            </div>
+                <form action="">
+                    <input class="search" type="email" name="search" placeholder="    Updates in your inbox...">
+                    <button type="submit" value="GO">Go</button>
+
+                </form>
+        </div>
             <p>Copyright 2020. All Right Reserved</p>
-        </section>
         
-    </footer>
-</body>
+    </footer> 
 </html>
